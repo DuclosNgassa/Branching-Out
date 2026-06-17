@@ -29,7 +29,7 @@ def filter_users_by_email(email):
         print(user)
 
 if __name__ == "__main__":
-    filter_option = input("What would you like to filter by? (Currently, only 'name, age or email' are supported): ").strip().lower()
+    filter_option = input("What would you like to filter by? (name, email, age): ").strip().lower()
 
     match filter_option:
         case "name":
